@@ -12,7 +12,7 @@ import java.time.Instant;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class StandardError implements Serializable, Applicable<StandardError> {
+public class SimpleError implements Serializable, Applicable<SimpleError> {
 
     @Serial
     private static final long serialVersionUID = 184857743348437316L;
